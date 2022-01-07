@@ -11,6 +11,8 @@ public class Person {
     private int age;
 
     public Person() {
+
+
     }
 
     public Person(String nationalCode, String firstName, String lastName, Date birthdate, Long phonenumber, int age) {

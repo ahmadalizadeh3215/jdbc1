@@ -29,17 +29,17 @@ public class JdbcMain {
 
         String selectSql = "SELECT * FROM person";
         PreparedStatement preparedStatement = connection.prepareStatement(selectSql);
-        ResultSet result = preparedStatement.executeQuery();
+        ResultSet result  =  preparedStatement.executeQuery();
         while (result.next()) {
-            Person p = new Person(
-                    result.getString("nationalcode"),
+            Person  s =  new Person(
+                    result.getString("  nationalcode"),
                     result.getString("first_name"),
-                    result.getString("last_name"),
+                    result.getString("  last_name"),
                     result.getDate("birthday"),
                     result.getLong("phone_number"),
                     result.getInt("age")
             );
-            System.out.println(p);
+            System.out.println(s);
         }
 
         connection.close();
