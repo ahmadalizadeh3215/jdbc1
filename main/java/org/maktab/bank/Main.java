@@ -6,6 +6,7 @@ public class Main {
     public static void main(String[] args) {
         Bank maktabBank = new Bank();
         Scanner scanner = new Scanner(System.in);
+        //bababeigi
         /*
             AddCustomer milad amery nationalCode
             Deposit nationalCode 1000
