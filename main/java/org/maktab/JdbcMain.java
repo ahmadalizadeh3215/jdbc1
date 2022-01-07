@@ -32,9 +32,9 @@ public class JdbcMain {
         ResultSet result = preparedStatement.executeQuery();
         while (result.next()) {
             Person p = new Person(
-                    result.getString("nationalcode"),
+                    result.getString("  nationalcode"),
                     result.getString("first_name"),
-                    result.getString("last_name"),
+                    result.getString("  last_name"),
                     result.getDate("birthday"),
                     result.getLong("phone_number"),
                     result.getInt("age")
