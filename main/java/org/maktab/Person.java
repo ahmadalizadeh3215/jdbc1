@@ -3,6 +3,7 @@ package org.maktab;
 import java.util.Date;
 
 public class Person {
+    // hassan mohseni
     private String nationalCode;
     private String firstName;
     private String lastName;
