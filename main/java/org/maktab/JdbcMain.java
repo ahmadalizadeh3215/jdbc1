@@ -3,6 +3,7 @@ package org.maktab;
 import java.sql.*;
 
 public class JdbcMain {
+    // hassan mohseni
     public static void main(String[] args) throws SQLException, ClassNotFoundException {
         Class.forName("org.postgresql.Driver"); // Registering postgresql jdbc driver
         Connection connection = DriverManager
